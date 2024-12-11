@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LocalStorage Modifier",
+  "version": "2.0",
+  "description": "Wijzig localStorage met je eigen invoer.",
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Vraag om invoer"
+  }
+}
