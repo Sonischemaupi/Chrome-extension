@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "LocalStorage Modifier",
-  "version": "2.0",
-  "description": "Wijzig localStorage met je eigen invoer.",
-  "permissions": ["scripting", "activeTab"],
+  "name": "LocalStorage Online Modifier",
+  "version": "3.5",
+  "description": "Sla localStorage online op en deel het.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://api.jsonbin.io/*"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Vraag om invoer"
+    "default_title": "Upload/Download localStorage data"
   }
 }
