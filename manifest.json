@@ -4,7 +4,7 @@
   "version": "3.5",
   "description": "Sla localStorage online op en deel het.",
   "permissions": ["scripting", "activeTab", "storage"],
-  "host_permissions": ["https://api.jsonbin.io/*"],
+  "host_permissions": ["YOUR_HOST_PERMISSIONS_HERE"],
   "background": {
     "service_worker": "background.js"
   },
