@@ -1,6 +1,6 @@
-const API_URL = "https://api.jsonbin.io/v3/b"; // Basis API-URL
-const API_KEY = "$2a$10$NBBICjL0W/.WhJMEzCVcLOESJOrip0B..LDOp95gtQNkvbkTGg1ya"; // X-Master-Key
-const BIN_ID = "675941e2e41b4d34e46373c3"; // Vast BIN_ID
+const API_URL = "YOUR_API_URL_HERE"; // Basis API-URL
+const API_KEY = "YOUR_API_KEY_HERE"; // X-Master-Key
+const BIN_ID = "YOUR_BIN_ID_HERE"; // Vast BIN_ID
 
 chrome.action.onClicked.addListener((tab) => {
   chrome.scripting.executeScript({
